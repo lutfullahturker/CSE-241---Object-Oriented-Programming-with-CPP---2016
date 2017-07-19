@@ -1,0 +1,6 @@
+MoV r1, 10
+Prn r1     ;line 3, decrement R1
+suB r1, 1  ;line 3, decrement R2
+JMP r1, 6  ;line 3, decrement R3
+Jmp 2     ; line 3, decrement R4
+hlT        ;finish the program
